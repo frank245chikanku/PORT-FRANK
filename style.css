@@ -388,3 +388,93 @@ header.sticky {
 .row:hover .layer {
     height: 100%;
 }
+.contact{ 
+    background: var(--second-bg-color);
+    display: grid;  
+    grid-template-columns: repeat(2,1fr); 
+    align-items: center;
+    gap: 2.5rem 
+}
+.contact-text h4{ 
+    color:var(--text-color);
+    margin: 18px 0; 
+    font-size: 20px; 
+    font-weight: 600;  
+}
+.contact-text h2{ 
+    font-size: var(--h2-font); 
+    line-height: 1;
+}
+.contact-text p{
+    color: var(--second-color); 
+    font-size: var(--p-font); 
+    line-height: 1.8;  
+    margin-bottom: 30px;  
+}
+.list{
+     margin-bottom: 2.8px;  
+
+}
+.list li{
+    margin-bottom: 12px 
+}
+.list li a{ 
+    display: block; 
+    color: var(--second-color); 
+    font-size: 14px;  
+    transition: all 45s ease;  
+}
+.list li  a:hover{ 
+    color: var(--text-color); 
+    transform: translateX(5px); 
+}
+.contact-icons {
+    margin-bottom: 20px;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    font-size: 2em;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color:rgba(255, 77, 5, 1);;
+}
+
+.contact-form {
+    background: #ff4d05;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #080808;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff4d05;
+}
+
